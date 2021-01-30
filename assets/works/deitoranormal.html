@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoshinori Ota | Web Designer</title>
+    <meta name="description" content="Yoshinori Ota">
+    <!-- reset.css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width:767px)">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <!-- wow.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- もしくは <script src="wow.min.js"></script> -->
+    <script>
+      new WOW().init();
+    </script>
+    <!--swiper.js-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+    <!-- original -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../image/logo.jpg">
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <a href="/"><img src="../image/logo (9).png" alt=""></a>
+        </div>
+        <div class="nav-wrapper">
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <h2 class="header-title">Menu</h2>
+                    <li class="header-nav-item"><a href="../menus/profile.html" class="header-nav-item-link">About</a></li>
+                    <li class="header-nav-item"><a href="../menus/works.html" class="header-nav-item-link">Works</a></li>
+                    <li class="header-nav-item"><a href="../menus/contact.html" class="header-nav-item-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-btn"><!-- ③ハンバーガーボタン -->
+            <span class="bar bar_top"></span>
+            <span class="bar bar_mid"></span>
+            <span class="bar bar_bottom"></span>
+            <span class="bar-title">Menu</span>
+        </div>
+    </div>
+    <!--header-->
+
+    <main>
+        <div class="title-bg"></div>
+
+        <div class="page-header wow fadeIn">
+            <p class="works-ttl">Works</p>
+            <h1 class="page-ttl-en">模写コーディング➁</h1>
+        </div>
+
+        <div class="works-item-wrap wow fadeIn">
+            <div class="swiper-container swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../image/deitoranormal1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="../image/deitoranormal2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="../image/deitoranormal3.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination page2 swiper-pagination-black"></div>
+            </div>
+
+            <div class="works-item-desc">
+                <h3 class="works-item-ttl">Comment</h3>
+                <p>XDで作成されたPC版デザインカンプをもとに、コーディングを行いました。</p>
+                <p>Cardの部分では追加表示されてもレイアウトが崩れないように工夫したコーデイングをしています。</p>
+
+                <dl class="works-item-list">
+                    <dt>制作期間</dt>
+                    <dd>1日</dd>
+                    <dt>制作範囲</dt>
+                    <dd>Cording, Responsible</dd>
+                </dl>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner wow fadeIn">
+            <h2 class="footer-ttl">Yoshinori Ota</h2>
+            <ul class="footer-sns-list">
+                <li class="footer-sns-item">
+                    <a href="https://twitter.com/gobotangobo1" class="footer-sns-item-link" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="footer-sns-item">
+                    <a href="https://www.instagram.com/gobogobo0811" class="footer-sns-item-link" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

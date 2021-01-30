@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoshinori Ota | Web Designer</title>
+    <meta name="description" content="Yoshinori Ota">
+    <!-- reset.css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width:767px)">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <!-- wow.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- もしくは <script src="wow.min.js"></script> -->
+    <script>
+      new WOW().init();
+    </script>
+    <!--swiper.js-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+    <!-- original -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../image/logo.jpg">
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <a href="/"><img src="../image/logo (9).png" alt=""></a>
+        </div>
+        <div class="nav-wrapper">
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <h2 class="header-title">Menu</h2>
+                    <li class="header-nav-item"><a href="./profile.html" class="header-nav-item-link">About</a></li>
+                    <li class="header-nav-item"><a href="./works.html" class="header-nav-item-link">Works</a></li>
+                    <li class="header-nav-item"><a href="./contact.html" class="header-nav-item-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-btn"><!-- ③ハンバーガーボタン -->
+            <span class="bar bar_top"></span>
+            <span class="bar bar_mid"></span>
+            <span class="bar bar_bottom"></span>
+            <span class="bar-title">Menu</span>
+        </div>
+    </div>
+    <!--header-->
+
+<main>
+    <div class="title-bg"></div>
+
+    <div class="page-header wow fadeIn">
+        <h1 class="page-ttl-en">Works</h1>
+        <p class="about-ttl">作品一覧</p>
+    </div>
+
+    <nav class="works-nav wow fadeIn">
+        <ul class="works-nav-items">
+            <li data-target="works-item" class="-select p-11">All</li>
+            <li data-target="hp" class="p-11">HP制作</li>
+            <li data-target="lp" class="p-11">LP制作</li>
+        </ul>
+    </nav>
+
+    <div class="works-wrap wow fadeIn">
+        <div class="works-item hp -select">
+            <a href="../works/sobolon.html">
+                <div class="works-item-img">
+                    <img src="../image/sobolon1.png" alt="sobolon">
+                </div>
+                <p class="works-item-name">sobolon</p>
+            </a>
+        </div>
+        <div class="works-item hp -select">
+            <a href="../works/deitorafinal.html">
+                <div class="works-item-img">
+                    <img src="../image/deitora final1.png" alt="">
+                </div>
+                <p class="works-item-name">模写コーディング➀</p>
+            </a>
+        </div>
+        <div class="works-item hp -select">
+            <a href="../works/deitoranormal.html">
+                <div class="works-item-img">
+                    <img src="../image/deitoranormal1.png" alt="">
+                </div>
+                <p class="works-item-name">模写コーディング➁</p>
+            </a>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer-inner wow fadeIn">
+        <h2 class="footer-ttl">Yoshinori Ota</h2>
+        <ul class="footer-sns-list">
+            <li class="footer-sns-item">
+                <a href="https://twitter.com/gobotangobo1" class="footer-sns-item-link" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="footer-sns-item">
+                <a href="https://www.instagram.com/gobogobo0811" class="footer-sns-item-link" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

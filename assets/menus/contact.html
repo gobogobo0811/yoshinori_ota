@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoshinori Ota | Web Designer</title>
+    <meta name="description" content="Yoshinori Ota">
+    <!-- reset.css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width:767px)">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <!-- wow.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- もしくは <script src="wow.min.js"></script> -->
+    <script>
+      new WOW().init();
+    </script>
+    <!--swiper.js-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+    <!-- original -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../image/logo.jpg">
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <a href="/"><img src="../image/logo (9).png" alt=""></a>
+        </div>
+        <div class="nav-wrapper">
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <h2 class="header-title">Menu</h2>
+                    <li class="header-nav-item"><a href="./profile.html" class="header-nav-item-link">About</a></li>
+                    <li class="header-nav-item"><a href="./works.html" class="header-nav-item-link">Works</a></li>
+                    <li class="header-nav-item"><a href="./contact.html" class="header-nav-item-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-btn"><!-- ③ハンバーガーボタン -->
+            <span class="bar bar_top"></span>
+            <span class="bar bar_mid"></span>
+            <span class="bar bar_bottom"></span>
+            <span class="bar-title">Menu</span>
+        </div>
+    </div>
+    <!--header-->
+
+<main>
+    <div class="title-bg"></div>
+
+    <section class="contact wow fadeIn">
+        <div class="page-header">
+            <h1 class="page-ttl-en">Contact</h1>
+            <p class="about-ttl">お問い合わせ</p>
+        </div>
+        <div class="contact-inner wow fadeIn">
+            <form id="js-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeSh6L2cwr3l0ara0ijotQvxwQTXUz8ipX9QPK9toe8mm3E4g/formResponse">
+                <p class="contact-message"><span class="contact-message-inline">※</span>は必須項目です</p>
+                <dl class="contact-list">
+                    <div class="contact-item">
+                        <dt class="contact-item-title">御社名</dt>
+                        <dd class="contact-item-input"><input type="text" name="entry.839004974" required></dd>
+                    </div>
+                    <div class="contact-item">
+                        <dt class="contact-item-title">お名前<span class="contact-item-inline">※</span></dt>
+                        <dd class="contact-item-input"><input type="text" name="entry.846918626" required></dd>
+                    </div>
+                    <div class="contact-item">
+                        <dt class="contact-item-title">メールアドレス<span class="contact-item-inline">※</span></dt>
+                        <dd class="contact-item-input"><input type="email" name="emailAddress" required></dd>
+                    </div>
+                    <div class="contact-item">
+                        <dt class="contact-item-title">お問い合わせ内容<span class="contact-item-inline">※</span></dt>
+                        <dd class="contact-item-input"><textarea name="entry.634839088" cols="30" rows="10" required></textarea></dd>
+                    </div>
+                </dl>
+                <button id="js-submit" class="contact-button" type="submit">送信</button>
+            </form>
+            <div id="js-success" class="contact-complete">
+                <p>送信完了しました。ありがとうございました。</p>
+            </div>
+            <div id="js-error" class="contact-complete -error">
+                <p>送信に失敗しました。ページを更新して再度送信してください。</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer>
+    <div class="footer-inner wow fadeIn">
+        <h2 class="footer-ttl">Yoshinori Ota</h2>
+        <ul class="footer-sns-list">
+            <li class="footer-sns-item">
+                <a href="https://twitter.com/gobotangobo1" class="footer-sns-item-link" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="footer-sns-item">
+                <a href="https://www.instagram.com/gobogobo0811" class="footer-sns-item-link" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
